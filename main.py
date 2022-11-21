@@ -1,6 +1,4 @@
 
-    chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
-    URLS = ('softuni.bg', 'stackoverflow.com', 'github.com')
 
     for url in URLS:
         print("Opening..." + url)
