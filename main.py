@@ -14,3 +14,6 @@ def game(x):
             print(f"Your number {guess} is too low. Try again with a high one!")
 
         elif guess > random_number:
+            print(f"Your number {guess} is too high. Try again with a low one!")
+
+    print("Congrats! You won.")
