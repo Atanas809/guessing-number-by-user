@@ -7,3 +7,7 @@ def game(x):
     guess = 0
 
     while guess != random_number:
+
+        guess = int(input("Make you guess here: "))
+
+        if guess < random_number:
