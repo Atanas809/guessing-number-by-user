@@ -17,3 +17,6 @@ def game(x):
             print(f"Your number {guess} is too high. Try again with a low one!")
 
     print("Congrats! You won.")
+
+
+game(100)
