@@ -1,9 +1,5 @@
 
 
-    for url in URLS:
-        print("Opening..." + url)
-        wb.get(chrome_path).open(url)
-
 web_automation()
 
 # Forex converter:
